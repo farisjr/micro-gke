@@ -13,7 +13,7 @@ func CreateGetNewsController(config config.Config) echo.HandlerFunc {
 	return func(c echo.Context) error {
 		return c.JSON(200, map[string]string{
 			"status":  "ok",
-			"message": "read news",
+			"message": "success read news",
 		})
 	}
 }
@@ -22,7 +22,7 @@ func CreatePostNewsController(config config.Config) echo.HandlerFunc {
 	return func(c echo.Context) error {
 		return c.JSON(200, map[string]string{
 			"status":  "ok",
-			"message": "post news",
+			"message": "success post news",
 		})
 	}
 }
